@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Marck Script', cursive;
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+ .carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h1 {
+	color: lightblue !important;
+	font-weight: 800;
+	font-size: 59px;
+}
+  .carousel-caption p {
+    color: #a47f09 !important;
+    font-size: 30px;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .concertbg{
+  	max-width: 100%;
+  	min-width: 100%;
+  	background-color: lightblue;
+  }
+  .title{
+  	font-size: 40px;
+  }
+ .sub_title{
+ 	font-size: 20px;
+ }
+ .para{
+ 	font-size: 25px;
+	padding: 30px;
+	text-align: justify;
+ }
+ .singername{
+ 	font-size: 25px;
+ }
+ .sd{
+ 	font-size: 18px;
+ }
+ .bgf{
+ 	background-color: lightblue;
+ }
+ .topbar{
+  font-size: 22px;
+  background: white transparent;
+ }
+ .sendbtn{
+  background: lightgreen;
+ }
+ .sendbtn:hover{
+  background: lightblue;
+  
+ }
